@@ -1,0 +1,99 @@
+   <cwmp:Inform>
+    <DeviceId>
+     <Manufacturer>DTGH</Manufacturer>
+     <OUI>FFFFFF</OUI>
+     <ProductClass>OBU</ProductClass>
+     <SerialNumber>M13110111830000113</SerialNumber>
+    </DeviceId>
+    <Event soap_enc:arrayType="cwmp:EventStruct[1]">
+     <EventStruct>
+      <EventCode>6 CONNECTION REQUEST</EventCode>
+      <CommandKey />
+     </EventStruct>
+    </Event>
+    <MaxEnvelopes>1</MaxEnvelopes>
+    <CurrentTime>1970-01-01T08:18:48+08:00</CurrentTime>
+    <RetryCount>0</RetryCount>
+    <ParameterList soap_enc:arrayType="cwmp:ParameterValueStruct[15]">
+     <ParameterValueStruct>
+      <Name>v2x.deviceInfo.deviceVersion</Name>
+      <Value xsi:type="xsd:string">V1.0</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.deviceInfo.softwareVersion</Name>
+      <Value xsi:type="xsd:string">V1.0.0.0</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.deviceInfo.PMVersion</Name>
+      <Value xsi:type="xsd:string">1.0.0.0</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.l1.phy</Name>
+      <Value xsi:type="string">DEACTIVE</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.l2.hl</Name>
+      <Value xsi:type="string">DEACTIVE</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.facilities.omkeeper</Name>
+      <Value xsi:type="string">WORK</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.facilities.xds</Name>
+      <Value xsi:type="string">WORK</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.app.omCore</Name>
+      <Value xsi:type="string">WORK</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.app.tester</Name>
+      <Value xsi:type="string">UNKNOWN</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.interface.proxy</Name>
+      <Value xsi:type="string">WORK</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.interface.atproxy</Name>
+      <Value xsi:type="string">WORK</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.corePeripherals.gnss</Name>
+      <Value xsi:type="string">UNLOCK</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.corePeripherals.wifi</Name>
+      <Value xsi:type="string">UNKNOWN</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.core.status.modules.corePeripherals.Uu</Name>
+      <Value xsi:type="string">UNKNOWN</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+     <ParameterValueStruct>
+      <Name>v2x.obu.status.omProxy</Name>
+      <Value xsi:type="string">UNKNOWN</Value>
+      <Notification>1</Notification>
+     </ParameterValueStruct>
+    </ParameterList>
+    <AddObjectList soap_enc:arrayType="cwmp:ParameterValueStruct[0]" />
+    <DeleteObjectList soap_enc:arrayType="cwmp:DeleteObjectStruct[0]" />
+    <AlarmList soap_enc:arrayType="cwmp:AlarmStruct[0]" />
+    <UpgradeReport />
+    <UpgradeFailure />
+   </cwmp:Inform>
