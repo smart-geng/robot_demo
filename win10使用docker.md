@@ -58,3 +58,13 @@ Report:  /usr/src/robot_demo/report/report-20200629-011352.html
 
 PS: 挂在宿主主机文件夹到容器，路径需要改写为Linux格式比如：C:\Users\gengzhineng 则为：/c/Users/gengzhineng
 
+# 3. robot跑用例示例：
+```shell
+# 跑某个路径下所有用例
+python -m robot.run --pythonpath .%* cases
+# 跑某个测试套件，也就是某个文件夹
+python -m robot.run --suite 性能测试  cases
+# 跑某个测试用例
+python -m robot.run --test "200 台终端心跳压力1秒一次" cases
+python -m robot.run --test "1 台终端演示测试" cases
+```
